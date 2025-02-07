@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url("data/form.jpg");
+    background-size: cover;
+    
+}
+form{
+    padding: 10px;
+    position: relative;
+    top:100px;
+    width: 80%;
+    height: auto;
+    left: 100px;
+    background-color: rgba(10, 22, 154, 0.363);
+    border: 2px solid rgb(255, 255, 255); 
+    box-shadow: 10px 5px 50px 10px rgb(251, 255, 5);
+    color: rgb(212, 255, 0);
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 100px;
+  
+}
+.contain{
+    overflow: hidden;
+}
