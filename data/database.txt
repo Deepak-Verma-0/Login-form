@@ -1,0 +1,16 @@
+CREATE TABLE login_record(
+id INT NOT NULL AUTO_INCREMENT,
+first_name varchar(30),
+last_name varchar(30),
+dob varchar(12),
+gender varchar(12),
+position varchar(30),
+number INT,
+    email varchar(50),
+    password varchar(50),
+    state varchar(50),
+    city varchar(50),
+    image varchar(255),
+    about varchar(255)
+
+)
